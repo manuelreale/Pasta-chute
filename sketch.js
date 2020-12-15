@@ -32,7 +32,7 @@ function setup() {
 //   }
 // }
 
-function mouseDragged() {
+function mouseClicked() {
   if(mouseX<windowWidth/2){
   boxes.push(new Box2(mouseX, mouseY, 60, 17));}
   else{
